@@ -14,7 +14,18 @@ a {
 }
 
 body {
+
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hrdshop.jpg');
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hrdshop.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hrdshop.jpg');
   margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: -4px;
+  height: 750px;
+  width: 100%;
 }
 
 ul {
@@ -45,9 +56,10 @@ li a:hover {
 /* Nav-Bar */
 
 #nav-bar {
-  position: absolute;
-  z-index: auto;
+  position: fixed;
   background-color: #000000;
+  padding: 0;
+  margin: 0;
   height: 50px;
   width: 100%;
 }
@@ -149,15 +161,120 @@ li a:hover {
 /* About HRD Page */
 
 #about-header {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hrdshop.jpg');
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hrdshop.jpg');
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hrdshop.jpg');
+  padding: 30px 0;
+}
+
+.about-hrd {
+  display: inline-flex;
+  height: 500px;
+}
+
+.about-h1 {
   margin: 0;
-  padding: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: -4px;
-  background-attachment: fixed;
-  height: 750px;
-  width: 100%;
+  padding: 5% 0 3% 0;
+  color: #ffff;
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.about-begin {
+  margin: 0 5% 0 0;;
+  padding: 2% 2%;
+  white-space: inherit;
+  height: 225px;
+  margin-top: 150px;
+  color: #ffff;
+  text-shadow: 3px 3px #000000;
+  background-color: #393e46;
+  font-size: 2.5em;
+}
+
+.tylermud {
+  margin: 2% 2%;
+  float: right;
+  display: inline-flex;
+  width: 350px;
+  height: 500px;
+}
+
+/* About Tyler */
+
+#tyler-header {
+  margin: 100px 0;
+  height: 100px;
+}
+
+.my-name {
+  margin: 0;
+  padding: 1% 1%;
+  color: #ffff;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 4em;
+  background-color: #393e46;
+  width: 50%;
+  float: right;
+  text-shadow: 3px 3px #000000;
+}
+
+#about {
+  margin: 7% 0;
+}
+
+.description1 {
+  display: inline-flex;
+}
+
+.about-me {
+  color: #ffff;
+  background-color: #393e46;
+  width: 50%;
+  height: 375px;
+  margin: 100px 25px 75px 100px;
+  text-shadow: 3px 3px #000000;
+}
+
+.tm85 {
+  position: static;
+  float: right;
+  margin: 2% 2%;
+  width: 500px;
+  padding: 0 3% 0 15%;
+}
+
+.description2 {
+  display: inline-flex;
+}
+
+.about-me2 {
+  text-align: center;
+  color: #ffff;
+  background-color: #393e46;
+  width: 50%;
+  height: 150px;
+  margin: 100px 50px 75px 50px;
+  text-shadow: 3px 3px #000000;
+}
+
+.nepapower {
+  width: 700px;
+}
+
+.description3 {
+  display: inline-flex;
+}
+
+.about-me3 {
+  color: #ffff;
+  background-color: #393e46;
+  width: 50%;
+  height: 200px;
+  margin: 250px 50px 75px 50px;
+  text-shadow: 3px 3px #000000;
+}
+
+.race-mechanic {
+  margin: 50px 50px;
+  width: 700px;
 }
