@@ -14,18 +14,8 @@ a {
 }
 
 body {
-
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hrdshop.jpg');
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hrdshop.jpg');
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hrdshop.jpg');
-  margin: 0;
-  padding: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: -4px;
-  height: 750px;
-  width: 100%;
+margin: 0;
+padding: 0;
 }
 
 ul {
@@ -57,6 +47,7 @@ li a:hover {
 
 #nav-bar {
   position: fixed;
+  top: 0;
   background-color: #000000;
   padding: 0;
   margin: 0;
@@ -162,6 +153,20 @@ li a:hover {
 
 #about-header {
   padding: 30px 0;
+}
+
+.about-bg {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hrdshop.jpg');
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hrdshop.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hrdshop.jpg');
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: -4px;
+  height: 750px;
+  width: 100%;
 }
 
 .about-hrd {
@@ -277,4 +282,20 @@ li a:hover {
 .race-mechanic {
   margin: 50px 50px;
   width: 700px;
+}
+
+/* ----------------- Services Page ------------------ */
+
+#services-head {
+  color: #ffff;
+  text-align: center;
+  margin: 5% 0 5% 0;
+  padding: 5% 0 5% 0;
+}
+
+.service-bg {
+  background-color: #393e46;
+  margin: 0;
+  padding: 0;
+  height: 750px;
 }
