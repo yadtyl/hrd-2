@@ -24,6 +24,11 @@ ul {
   padding: 0;
 }
 
+li {
+  display: inline;
+  float: left;
+}
+
 li a {
   display: block;
   color: #ffff;
@@ -38,24 +43,9 @@ li a:hover {
   background-color: #808080;
 }
 
-th {
-  font-family: 'Goldman', cursive;
-  font-size: 50px;
-  padding: 25px 75px;
-  text-decoration: underline;
-}
-
-td {
-  font-family: 'Lato', sans-serif;
-  font-weight: bolder;
-  font-size: 25px;
-  text-align: center;
-  padding: 5px 5px;
-}
 /* Nav-Bar */
 
 #nav-bar {
-  z-index: 1;
   position: fixed;
   top: 0;
   background-color: #000000;
@@ -63,11 +53,6 @@ td {
   margin: 0;
   height: 50px;
   width: 100%;
-}
-
-.nav {
-  display: inline;
-  float: left;
 }
 
 /* Greeting */
@@ -312,96 +297,4 @@ td {
   margin: 0;
   padding: 0;
   height: 750px;
-}
-
-#prices {
-  margin: 3% 5%;
-  padding: 3% 0;
-}
-
- .stroke-headings {
-   color: #000000;
-   text-align: center;
- }
-
-.price-lists {
-  padding: 5% 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.two-stroke-pricing {
-  background-color: #03506f;
-}
-
-.four-stroke-pricing {
-  background-color: #03506f;
-}
-
-#warning {
-  margin: 10% 10%;
-  background-color: #db6400;
-  text-align: center;
-}
-
-.att {
-  font-size: 5rem;
-}
-
-.att-p {
-  font-size: 3.5rem;
-}
-
-#porting-info {
-  color: #ffff;
-  display: inline-flex;
-}
-
-.two-porting {
-  background-color: #222831;
-  margin: 15px 15px;
-  padding: 3% 5%;
-  text-align: center;
-}
-
-.four-porting {
-  background-color: #222831;
-  padding: 3% 5%;
-  margin: 15px 15px;
-  text-align: center;
-}
-
-/* ---------------- Animations -------------------- */
-
-.slideIn {
-  animation: slideIn ease 1.5s forwards;
-  -webkit-animation: slideIn ease 1.5s forwards;
-  -moz-animation: slideIn ease 1.5s forwards;
-  -o-animation: slideIn ease 1.5s forwards;
-  -ms-animation: slideIn ease 1.5s forwards;
-}
-
-@-webkit-keyframes slideIn {
-  0% {
-    transform: translateX(-900px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@-moz-keyframes slideIn {
-  0% {
-    transform: translateX(-900px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes slideIn {
-  0% {
-    transform: translateX(-900px);
-  }
-  100% {
-    transform: translateX(0);
-  }
 }
